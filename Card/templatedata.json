@@ -1,0 +1,576 @@
+{
+	"params": {
+		"wide": {
+			"label": "Wide mode",
+			"description": "Allows the grid to extend beyond page width in widescreen",
+			"example": "Yes",
+			"type": "string",
+			"default": "No"
+		},
+		"count": {
+			"label": "Number of cards",
+			"description": "The number of cards generated",
+			"example": "1",
+			"type": "number",
+			"suggested": true,
+			"default": "The number of column"
+		},
+		"column": {
+			"label": "Number of columns",
+			"description": "The number of cards on a single row (max 6)",
+			"example": "4",
+			"type": "number",
+			"default": "1",
+			"suggested": true
+		},
+		"title1": {
+			"label": "Card 1 title",
+			"description": "The title text on card 1",
+			"example": "Red 1 Jared",
+			"type": "string",
+			"required": true,
+			"suggested": true
+		},
+		"text1": {
+			"label": "Card 1 text",
+			"description": "The content text on card 1",
+			"type": "content",
+			"required": true,
+			"suggested": true
+		},
+		"bottom1": {
+			"label": "Card 1 bottom",
+			"description": "The text on the bottom section of card 1",
+			"type": "content"
+		},
+		"page1": {
+			"label": "Card 1 button link",
+			"description": "The page linked by the button on card 1",
+			"example": "Ships",
+			"type": "wiki-page-name"
+		},
+		"pagetext1": {
+			"label": "Card 1 button text",
+			"description": "The text displayed on the button on card 1",
+			"example": "Don't click",
+			"type": "string"
+		},
+		"bylinetop1": {
+			"label": "Card 1 top byline",
+			"description": "The byline text above the title on card 1",
+			"type": "string"
+		},
+		"bylinebottom1": {
+			"label": "Card 1 bottom byline",
+			"description": "The byline text below the title on card 1",
+			"type": "string"
+		},
+		"colorbg1": {
+			"label": "Card 1 background color",
+			"description": "The background color of card 1",
+			"example": "#ffffff"
+		},
+		"colortext1": {
+			"label": "Card 1 text color",
+			"description": "The text color of card 1",
+			"example": "#000000"
+		},
+		"colorbyline1": {
+			"label": "Card 1 byline color",
+			"description": "The color of the byline on card 1",
+			"example": "#72777d"
+		},
+		"colortitle1": {
+			"label": "Card 1 title color",
+			"description": "The color of the title on card 1",
+			"example": "#222222"
+		},
+		"colorbgbottom1": {
+			"label": "Card 1 bottom background color",
+			"description": "The background color of the bottom section of card 1",
+			"example": "#eaecf0"
+		},
+		"colorbottom1": {
+			"label": "Card 1 bottom text color",
+			"description": "The text color in the bottom section of card 1",
+			"example": "#72777d"
+		},
+		"colorbgbutton1": {
+			"label": "Card 1 button background color",
+			"description": "The background color of the button on card 1",
+			"example": "#eaecf0"
+		},
+		"title2": {
+			"label": "Card 2 title",
+			"description": "The title text on card 2",
+			"example": "Red 2 Jared",
+			"type": "string"
+		},
+		"text2": {
+			"label": "Card 2 text",
+			"description": "The content text on card 2",
+			"type": "content"
+		},
+		"bottom2": {
+			"label": "Card 2 bottom",
+			"description": "The text on the bottom section of card 2",
+			"type": "content"
+		},
+		"page2": {
+			"label": "Card 2 button link",
+			"description": "The page linked by the button on card 2",
+			"example": "Ships",
+			"type": "wiki-page-name"
+		},
+		"pagetext2": {
+			"label": "Card 2 button text",
+			"description": "The text displayed on the button on card 2",
+			"example": "Don't click",
+			"type": "string"
+		},
+		"bylinetop2": {
+			"label": "Card 2 top byline",
+			"description": "The byline text above the title on card 2",
+			"type": "string"
+		},
+		"bylinebottom2": {
+			"label": "Card 2 bottom byline",
+			"description": "The byline text below the title on card 2",
+			"type": "string"
+		},
+		"colorbg2": {
+			"label": "Card 2 background color",
+			"description": "The background color of card 2",
+			"example": "#ffffff"
+		},
+		"colortext2": {
+			"label": "Card 2 text color",
+			"description": "The text color of card 2",
+			"example": "#000000"
+		},
+		"colorbyline2": {
+			"label": "Card 2 byline color",
+			"description": "The color of the byline on card 2",
+			"example": "#72777d"
+		},
+		"colortitle2": {
+			"label": "Card 2 title color",
+			"description": "The color of the title on card 2",
+			"example": "#222222"
+		},
+		"colorbgbottom2": {
+			"label": "Card 2 bottom background color",
+			"description": "The background color of the bottom section of card 2",
+			"example": "#eaecf0"
+		},
+		"colorbottom2": {
+			"label": "Card 2 bottom text color",
+			"description": "The text color in the bottom section of card 2",
+			"example": "#72777d"
+		},
+		"colorbgbutton2": {
+			"label": "Card 2 button background color",
+			"description": "The background color of the button on card 2",
+			"example": "#eaecf0"
+		},
+		"title3": {
+			"label": "Card 3 title",
+			"description": "The title text on card 3",
+			"example": "Red 3 Jared",
+			"type": "string",
+			"required": true,
+			"suggested": true
+		},
+		"text3": {
+			"label": "Card 3 text",
+			"description": "The content text on card 3",
+			"type": "content",
+			"required": true,
+			"suggested": true
+		},
+		"bottom3": {
+			"label": "Card 3 bottom",
+			"description": "The text on the bottom section of card 3",
+			"type": "content"
+		},
+		"page3": {
+			"label": "Card 3 button link",
+			"description": "The page linked by the button on card 3",
+			"example": "Ships",
+			"type": "wiki-page-name"
+		},
+		"pagetext3": {
+			"label": "Card 3 button text",
+			"description": "The text displayed on the button on card 3",
+			"example": "Don't click",
+			"type": "string"
+		},
+		"bylinetop3": {
+			"label": "Card 3 top byline",
+			"description": "The byline text above the title on card 3",
+			"type": "string"
+		},
+		"bylinebottom3": {
+			"label": "Card 3 bottom byline",
+			"description": "The byline text below the title on card 3",
+			"type": "string"
+		},
+		"colorbg3": {
+			"label": "Card 3 background color",
+			"description": "The background color of card 3",
+			"example": "#ffffff"
+		},
+		"colortext3": {
+			"label": "Card 3 text color",
+			"description": "The text color of card 3",
+			"example": "#000000"
+		},
+		"colorbyline3": {
+			"label": "Card 3 byline color",
+			"description": "The color of the byline on card 3",
+			"example": "#72777d"
+		},
+		"colortitle3": {
+			"label": "Card 3 title color",
+			"description": "The color of the title on card 3",
+			"example": "#222222"
+		},
+		"colorbgbottom3": {
+			"label": "Card 3 bottom background color",
+			"description": "The background color of the bottom section of card 3",
+			"example": "#eaecf0"
+		},
+		"colorbottom3": {
+			"label": "Card 3 bottom text color",
+			"description": "The text color in the bottom section of card 3",
+			"example": "#72777d"
+		},
+		"colorbgbutton3": {
+			"label": "Card 3 button background color",
+			"description": "The background color of the button on card 3",
+			"example": "#eaecf0"
+		},
+		"title4": {
+			"label": "Card 4 title",
+			"description": "The title text on card 4",
+			"example": "Red 4 Jared",
+			"type": "string",
+			"required": true,
+			"suggested": true
+		},
+		"text4": {
+			"label": "Card 4 text",
+			"description": "The content text on card 4",
+			"type": "content",
+			"required": true,
+			"suggested": true
+		},
+		"bottom4": {
+			"label": "Card 4 bottom",
+			"description": "The text on the bottom section of card 4",
+			"type": "content"
+		},
+		"page4": {
+			"label": "Card 4 button link",
+			"description": "The page linked by the button on card 4",
+			"example": "Ships",
+			"type": "wiki-page-name"
+		},
+		"pagetext4": {
+			"label": "Card 4 button text",
+			"description": "The text displayed on the button on card 4",
+			"example": "Don't click",
+			"type": "string"
+		},
+		"bylinetop4": {
+			"label": "Card 4 top byline",
+			"description": "The byline text above the title on card 4",
+			"type": "string"
+		},
+		"bylinebottom4": {
+			"label": "Card 4 bottom byline",
+			"description": "The byline text below the title on card 4",
+			"type": "string"
+		},
+		"colorbg4": {
+			"label": "Card 4 background color",
+			"description": "The background color of card 4",
+			"example": "#ffffff"
+		},
+		"colortext4": {
+			"label": "Card 4 text color",
+			"description": "The text color of card 4",
+			"example": "#000000"
+		},
+		"colorbyline4": {
+			"label": "Card 4 byline color",
+			"description": "The color of the byline on card 4",
+			"example": "#72777d"
+		},
+		"colortitle4": {
+			"label": "Card 4 title color",
+			"description": "The color of the title on card 4",
+			"example": "#222222"
+		},
+		"colorbgbottom4": {
+			"label": "Card 4 bottom background color",
+			"description": "The background color of the bottom section of card 4",
+			"example": "#eaecf0"
+		},
+		"colorbottom4": {
+			"label": "Card 4 bottom text color",
+			"description": "The text color in the bottom section of card 4",
+			"example": "#72777d"
+		},
+		"colorbgbutton4": {
+			"label": "Card 4 button background color",
+			"description": "The background color of the button on card 4",
+			"example": "#eaecf0"
+		},
+		"title5": {
+			"label": "Card 5 title",
+			"description": "The title text on card 5",
+			"example": "Red 5 Jared",
+			"type": "string",
+			"required": true,
+			"suggested": true
+		},
+		"text5": {
+			"label": "Card 5 text",
+			"description": "The content text on card 5",
+			"type": "content",
+			"required": true,
+			"suggested": true
+		},
+		"bottom5": {
+			"label": "Card 5 bottom",
+			"description": "The text on the bottom section of card 5",
+			"type": "content"
+		},
+		"page5": {
+			"label": "Card 5 button link",
+			"description": "The page linked by the button on card 5",
+			"example": "Ships",
+			"type": "wiki-page-name"
+		},
+		"pagetext5": {
+			"label": "Card 5 button text",
+			"description": "The text displayed on the button on card 5",
+			"example": "Don't click",
+			"type": "string"
+		},
+		"bylinetop5": {
+			"label": "Card 5 top byline",
+			"description": "The byline text above the title on card 5",
+			"type": "string"
+		},
+		"bylinebottom5": {
+			"label": "Card 5 bottom byline",
+			"description": "The byline text below the title on card 5",
+			"type": "string"
+		},
+		"colorbg5": {
+			"label": "Card 5 background color",
+			"description": "The background color of card 5",
+			"example": "#ffffff"
+		},
+		"colortext5": {
+			"label": "Card 5 text color",
+			"description": "The text color of card 5",
+			"example": "#000000"
+		},
+		"colorbyline5": {
+			"label": "Card 5 byline color",
+			"description": "The color of the byline on card 5",
+			"example": "#72777d"
+		},
+		"colortitle5": {
+			"label": "Card 5 title color",
+			"description": "The color of the title on card 5",
+			"example": "#222222"
+		},
+		"colorbgbottom5": {
+			"label": "Card 5 bottom background color",
+			"description": "The background color of the bottom section of card 5",
+			"example": "#eaecf0"
+		},
+		"colorbottom5": {
+			"label": "Card 5 bottom text color",
+			"description": "The text color in the bottom section of card 5",
+			"example": "#72777d"
+		},
+		"colorbgbutton5": {
+			"label": "Card 5 button background color",
+			"description": "The background color of the button on card 5",
+			"example": "#eaecf0"
+		},
+		"title6": {
+			"label": "Card 6 title",
+			"description": "The title text on card 6",
+			"example": "Red 6 Jared",
+			"type": "string",
+			"required": true,
+			"suggested": true
+		},
+		"text6": {
+			"label": "Card 6 text",
+			"description": "The content text on card 6",
+			"type": "content",
+			"required": true,
+			"suggested": true
+		},
+		"bottom6": {
+			"label": "Card 6 bottom",
+			"description": "The text on the bottom section of card 6",
+			"type": "content"
+		},
+		"page6": {
+			"label": "Card 6 button link",
+			"description": "The page linked by the button on card 6",
+			"example": "Ships",
+			"type": "wiki-page-name"
+		},
+		"pagetext6": {
+			"label": "Card 6 button text",
+			"description": "The text displayed on the button on card 6",
+			"example": "Don't click",
+			"type": "string"
+		},
+		"bylinetop6": {
+			"label": "Card 6 top byline",
+			"description": "The byline text above the title on card 6",
+			"type": "string"
+		},
+		"bylinebottom6": {
+			"label": "Card 6 bottom byline",
+			"description": "The byline text below the title on card 6",
+			"type": "string"
+		},
+		"colorbg6": {
+			"label": "Card 6 background color",
+			"description": "The background color of card 6",
+			"example": "#ffffff"
+		},
+		"colortext6": {
+			"label": "Card 6 text color",
+			"description": "The text color of card 6",
+			"example": "#000000"
+		},
+		"colorbyline6": {
+			"label": "Card 6 byline color",
+			"description": "The color of the byline on card 6",
+			"example": "#72777d"
+		},
+		"colortitle6": {
+			"label": "Card 6 title color",
+			"description": "The color of the title on card 6",
+			"example": "#222222"
+		},
+		"colorbgbottom6": {
+			"label": "Card 6 bottom background color",
+			"description": "The background color of the bottom section of card 6",
+			"example": "#eaecf0"
+		},
+		"colorbottom6": {
+			"label": "Card 6 bottom text color",
+			"description": "The text color in the bottom section of card 6",
+			"example": "#72777d"
+		},
+		"colorbgbutton6": {
+			"label": "Card 6 button background color",
+			"description": "The background color of the button on card 6",
+			"example": "#eaecf0"
+		}
+	},
+	"description": "This template is a template for generating cards in a grid or row layout on a page. Currently only a maximum of six cards are supported in Visual Editing, please refer to the template page for advanced syntax.",
+	"paramOrder": [
+		"count",
+		"column",
+		"wide",
+		"title1",
+		"text1",
+		"bottom1",
+		"page1",
+		"pagetext1",
+		"bylinetop1",
+		"bylinebottom1",
+		"title2",
+		"text2",
+		"bottom2",
+		"page2",
+		"pagetext2",
+		"bylinetop2",
+		"bylinebottom2",
+		"title3",
+		"text3",
+		"bottom3",
+		"page3",
+		"pagetext3",
+		"bylinetop3",
+		"bylinebottom3",
+		"title4",
+		"text4",
+		"bottom4",
+		"page4",
+		"pagetext4",
+		"bylinetop4",
+		"bylinebottom4",
+		"title5",
+		"text5",
+		"bottom5",
+		"page5",
+		"pagetext5",
+		"bylinetop5",
+		"bylinebottom5",
+		"title6",
+		"text6",
+		"bottom6",
+		"page6",
+		"pagetext6",
+		"bylinetop6",
+		"bylinebottom6",
+		"colorbg1",
+		"colortitle1",
+		"colortext1",
+		"colorbgbottom1",
+		"colorbottom1",
+		"colorbgbutton1",
+		"colorbyline1",
+		"colorbg2",
+		"colortitle2",
+		"colortext2",
+		"colorbgbottom2",
+		"colorbottom2",
+		"colorbgbutton2",
+		"colorbyline2",
+		"colorbg3",
+		"colortitle3",
+		"colortext3",
+		"colorbgbottom3",
+		"colorbottom3",
+		"colorbgbutton3",
+		"colorbyline3",
+		"colorbg4",
+		"colortitle4",
+		"colortext4",
+		"colorbgbottom4",
+		"colorbottom4",
+		"colorbgbutton4",
+		"colorbyline4",
+		"colorbg5",
+		"colortitle5",
+		"colortext5",
+		"colorbgbottom5",
+		"colorbottom5",
+		"colorbgbutton5",
+		"colorbyline5",
+		"colorbg6",
+		"colortitle6",
+		"colortext6",
+		"colorbgbottom6",
+		"colorbottom6",
+		"colorbgbutton6",
+		"colorbyline6"
+	],
+	"format": "block"
+}
