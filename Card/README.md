@@ -6,10 +6,13 @@ Card is a template for generating cards in a grid or row layout on a page. Works
 ## Formatting parameters
 count
 - The number of cards generated
+  
 column
 - The number of cards on a single row (max 6)
+  
 wide
 - Allows the grid to extend beyond page width in widescreen (yes or no)
+  
 
 ## Content parameters
 title(n)
