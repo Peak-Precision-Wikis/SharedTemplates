@@ -1,0 +1,18 @@
+<includeonly><div class="card-container {{#ifeq:{{yesno|{{{wide|}}}}}|yes|floatnone}}">
+    <div class="card-row">
+    	{{#loop: cardcount
+    	 | 1
+    	 | {{{count|{{{column|1}}}}}}
+    	 | <div class="card {{#if:{{{column|}}}|card-col{{{column}}}}}" style="{{#if:{{{colorbg{{#var:cardcount}}|}}}|background:{{{colorbg{{#var:cardcount}}}}};}}{{#if:{{{colortext{{#var:cardcount}}|}}}|color:{{{colortext{{#var:cardcount}}}}}}}">
+	            <div class="card-top"><!--
+	            	-->{{#if:{{{bylinetop{{#var:cardcount}}|}}}|<div class="byline-top" style="{{#if:{{{colorbyline{{#var:cardcount}}|}}}|color:{{{colorbyline{{#var:cardcount}}}}}}}">{{{bylinetop{{#var:cardcount}}}}}</div>}}<!--
+	            	-->{{#if:{{{title{{#var:cardcount}}|{{#var:title{{#var:cardcount}} }}}}}|<div class="card-title" style="{{#if:{{{colortitle{{#var:cardcount}}|}}}|color:{{{colortitle{{#var:cardcount}}}}}}}">{{{title{{#var:cardcount}}|{{#var:title{{#var:cardcount}} }}}}}</div>}}<!--
+	            	-->{{#if:{{{bylinebottom{{#var:cardcount}}|}}}|<div class="byline-bottom" style="{{#if:{{{colorbyline{{#var:cardcount}}|}}}|color:{{{colorbyline{{#var:cardcount}}}}}}}">{{{bylinebottom{{#var:cardcount}}}}}</div>}}<!--
+	            	-->{{#if:{{{text{{#var:cardcount}}|{{#var:text{{#var:cardcount}} }}}}}|{{{text{{#var:cardcount}}|{{#var:text{{#var:cardcount}} }}}}}}}<!--
+	            --></div><!--
+	            -->{{#if:{{{bottom{{#var:cardcount}}|}}}|<div class="card-bottom" style="{{#if:{{{colorbgbottom{{#var:cardcount}}|}}}|background:{{{colorbgbottom{{#var:cardcount}}}}};}}{{#if:{{{colorbottom{{#var:cardcount}}|}}}|color:{{{colorbottom{{#var:cardcount}}}}}}}">{{{bottom{{#var:cardcount}}}}}</div>}}<!--
+	            -->{{#if:{{{page{{#var:cardcount}}|}}}{{{pagelink{{#var:cardcount}}|}}}|<div class="card-button" style="{{#if:{{{colorbgbutton{{#var:cardcount}}|}}}|background:{{{colorbgbutton{{#var:cardcount}}}}}}}">{{#if:{{{pagelink{{#var:cardcount}}|}}}|[{{{pagelink{{#var:cardcount}}}}} {{{pagetext{{#var:cardcount}}|{{{pagelink{{#var:cardcount}}}}}}}}]|<span class="button-text">[[{{{page{{#var:cardcount}}}}}|{{{pagetext{{#var:cardcount}}|page{{#var:cardcount}}}}}]]</span>}}</div>}}<!--
+	        --></div>
+	    }}
+    </div>
+</div><templatestyles src="Template:Card/styles.css" /></includeonly><noinclude>{{/doc}}</noinclude>
