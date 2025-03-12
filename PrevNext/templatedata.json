@@ -1,0 +1,67 @@
+{
+	"params": {
+		"prev": {
+			"label": "Previous page name",
+			"description": "Page name of the previous page",
+			"example": "Version 1.0.0",
+			"type": "wiki-page-name",
+			"suggested": true
+		},
+		"prevDesc": {
+			"label": "Previous description text",
+			"description": "Optional description text for previous page",
+			"example": "Preceded by",
+			"type": "string",
+			"suggested": true
+		},
+		"title": {
+			"label": "Title text",
+			"description": "Optional title text shown in the middle of the navigation bar",
+			"type": "string",
+			"default": "Current page name"
+		},
+		"desc": {
+			"label": "Description text",
+			"description": "Optional description text shown in the middle of the navigation bar",
+			"type": "string"
+		},
+		"next": {
+			"label": "Next page name",
+			"description": "Page name of the next page",
+			"example": "Version 1.1.0",
+			"type": "wiki-page-name",
+			"suggested": true
+		},
+		"nextDesc": {
+			"label": "Next description text",
+			"description": "Optional description text for next page",
+			"example": "Succeed by",
+			"type": "wiki-page-name",
+			"suggested": true
+		},
+		"prevTitle": {
+			"label": "Previous title text",
+			"description": "Optional title text for previous page",
+			"type": "string",
+			"suggested": true
+		},
+		"nextTitle": {
+			"label": "Next title text",
+			"description": "Optional title text for next page",
+			"type": "string",
+			"suggested": true
+		}
+	},
+	"description": "Provide a top navigation bar that shows the previous and next pages",
+	"format": "block",
+	"paramOrder": [
+		"prev",
+		"prevTitle",
+		"prevDesc",
+		"title",
+		"desc",
+		"next",
+		"nextTitle",
+		"nextDesc"
+	]
+}
