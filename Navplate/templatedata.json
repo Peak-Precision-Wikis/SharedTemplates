@@ -1,0 +1,30 @@
+{
+	"params": {
+		"title": {
+			"label": "Title",
+			"description": "Title of the subject (wikilink is optional)",
+			"example": "[[Ship]]s",
+			"type": "unknown",
+			"required": true,
+			"suggested": true
+		},
+		"id": {
+			"label": "ID",
+			"description": "ID used for HTML"
+		},
+		"subtitle": {
+			"label": "Subtitle",
+			"description": "Subtitle text above the title, it should be connected to the title",
+			"example": "List of",
+			"type": "string",
+			"suggested": true
+		}
+	},
+	"description": "Creates a navigational box for links to other pages.",
+	"paramOrder": [
+		"subtitle",
+		"title",
+		"id"
+	],
+	"format": "block"
+}
