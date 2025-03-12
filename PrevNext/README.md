@@ -1,5 +1,5 @@
 # PrevNext
-The {{t|PrevNext}} template is used to provide a top navigation bar that shows the previous and next pages.
+The {{PrevNext}} template is used to provide a top navigation bar that shows the previous and next pages.
 
 ## Examples
 
