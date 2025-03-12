@@ -1,0 +1,21 @@
+<includeonly>
+{{PrevNext
+|prev={{#if:{{{prev|}}}|Update:{{{prev}}}}}
+|prevTitle={{{prev|}}}
+|prevDesc={{{prevDesc|}}}
+|title=<span class="template-patchdata-status {{#if:{{{future_release|}}}|template-patchdata-status--upcoming|{{#if:{{{publish_date|}}}|template-patchdata-status--released}}}}">{{#if:{{{future_release|}}}|Upcoming|{{#if:{{{publish_date|}}}|Released}}|Unknown}}</span>
+|desc={{#if:{{{publish_date|}}}|{{#if:{{{future_release|}}}|est. }}{{#time: j F Y| {{{publish_date}}}}} - {{#if:{{{future_release|}}}|{{Time ago|{{{publish_date}}}|magnitude=days|ago=}}|{{Time ago|{{{publish_date}}}}}}}}}
+|next={{#if:{{{next|}}}|Update:{{{next}}}}}
+|nextTitle={{{next|}}}
+|nextDesc={{{nextDesc|}}}
+[[Category:{{#if: {{{future_release|}}}|Upcoming Updates|Updates}}]]
+}}
+
+<includeonly>{{#seo:
+|title 			= {{PAGENAME}} Update - Outlaster Wiki
+|site_name		= Outlaster Wiki
+|type			= article
+|image          = {{{image|}}}
+|pageimage      = {{{image|}}}
+|locale			= {{PAGELANGUAGE}}
+}}<templatestyles src="Template:PatchData/styles.css" /></includeonly><noinclude>{{/doc}}</noinclude>
