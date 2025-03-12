@@ -1,0 +1,64 @@
+{
+	"params": {
+		"image": {
+			"label": "SEO image",
+			"description": "Image for SEO purposes",
+			"example": "Dovedale_Central.jpg",
+			"type": "wiki-file-name"
+		},
+		"future_release": {
+			"label": "Future release",
+			"description": "Whether this patch is a future release (yes/no)",
+			"example": "yes",
+			"type": "string",
+			"default": "no",
+			"autovalue": "yes",
+			"suggested": true
+		},
+		"publish_date": {
+			"label": "Publish date",
+			"description": "Publish date or estimated publish (if future release) of the patch",
+			"example": "2022-09-21",
+			"type": "date",
+			"suggested": true
+		},
+		"prev": {
+			"label": "Previous patch page name",
+			"description": "Page name of the previous patch",
+			"example": "2.0.0",
+			"type": "wiki-page-name",
+			"required": true,
+			"suggested": true
+		},
+		"next": {
+			"label": "Next patch page name",
+			"description": "Page name of the next patch",
+			"example": "1.2.4",
+			"type": "wiki-page-name",
+			"suggested": true
+		},
+		"type": {
+			"label": "Type",
+			"description": "The type of the update.",
+			"example": "minor",
+			"type": "line",
+			"suggestedvalues": [
+				"major",
+				"minor",
+				"patch",
+				"hotfix"
+			],
+			"suggested": true
+		}
+	},
+	"description": "Provides current status and navigation for patch pages",
+	"format": "\n{{_\n|_=_\n}}\n",
+	"paramOrder": [
+		"future_release",
+		"publish_date",
+		"prev",
+		"next",
+		"image",
+		"type"
+	]
+}
