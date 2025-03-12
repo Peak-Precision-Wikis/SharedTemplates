@@ -1,0 +1,7 @@
+.template-patchdata-status--upcoming {
+	color: var( --color-warning );
+}
+
+.template-patchdata-status--released {
+	color: var( --color-success );
+}
