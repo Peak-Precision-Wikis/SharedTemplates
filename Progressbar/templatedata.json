@@ -1,0 +1,39 @@
+{
+	"params": {
+		"prev": {
+			"label": "Previous item",
+			"description": "Label for the previous item",
+			"example": "Level 1",
+			"suggested": true
+		},
+		"next": {
+			"label": "Next item",
+			"description": "Label for the next item",
+			"example": "Level 2",
+			"suggested": true
+		},
+		"progressnumber": {
+			"label": "Progress in percent",
+			"description": "Current progress (number only)",
+			"example": "45",
+			"type": "number",
+			"default": "0",
+			"required": true,
+			"suggested": true
+		},
+		"progresstext": {
+			"label": "Progress description",
+			"description": "Description text for the progress",
+			"example": "10,000 exp to go",
+			"suggested": true
+		}
+	},
+	"description": "This template is used to display a progress bar",
+	"paramOrder": [
+		"progressnumber",
+		"prev",
+		"next",
+		"progresstext"
+	],
+	"format": "block"
+}
