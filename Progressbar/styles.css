@@ -1,0 +1,34 @@
+.t-progressbar {
+	font-size: 0.8125rem;
+	line-height: 1.375;
+}
+
+.t-progressbar__header {
+	margin-bottom: 0.5rem;
+	display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    color: var( --color-emphasized );
+}
+
+.t-progressbar__bar {
+	position: relative;
+	height: 5px;
+	background-color: var( --color-surface-1 );
+	border-radius: 2px;
+}
+
+.t-progressbar__progress {
+	position: absolute;
+	top: 0;
+    bottom: 0;
+    background-color: var(--color-progressive);
+    border-radius: 2px;
+}
+
+.t-progressbar__footer {
+	margin-top: 0.5rem;
+	display: flex;
+    justify-content: space-between;
+    color: var( --color-subtle );
+}
