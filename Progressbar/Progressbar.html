@@ -1,0 +1,23 @@
+<div class="t-progressbar">
+<!-- Header -->
+<div class="t-progressbar__header"><!--
+Prev 
+-->{{#if:{{{prev|}}}|<div class="t-progressbar__headerItem">{{{prev}}}</div>}}<!-- 
+Next
+-->{{#if:{{{next|}}}|<div class="t-progressbar__headerItem">{{{next}}}</div>}}<!--
+--></div>
+<!-- Progress bar -->
+<div class="t-progressbar__bar">
+<!-- Progress -->
+<div class="t-progressbar__progress" role="progressbar" aria-valuenow="{{{progressnumber|0}}}" aria-valuemin="0" aria-valuemax="100" style="width:{{{progressnumber|0}}}%"></div>
+</div>
+<!-- Footer -->
+<div class="t-progressbar__footer">
+<div class="t-progressbar__footerItem">{{{progressnumber|0}}}%</div>
+{{#if:{{{progresstext|}}}|<div class="t-progressbar__footerItem">{{{progresstext}}}</div>}}
+</div>
+</div><!--
+Templatestyles
+--><templatestyles src="Template:Progressbar/styles.css"/><!--
+Documentation
+--><noinclude>{{/doc}}</noinclude>
