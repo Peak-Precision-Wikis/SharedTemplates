@@ -1,5 +1,5 @@
 # Navplate
-{{navplate}} allows a navigational template to be set up relatively quickly by supplying it with one or more lists of links, similar to Template:Navbox on Wikipedia.
+{{navplate}} allows a navigational template to be set up relatively quickly by supplying it with one or more lists of links, similar to Template:Navbox on Wikipedia. This works in synergy with Module:Navpills, which can be found in our SharedModules repo, along with the styles.
 
 ## Usage
 Please remove the parameters that are left blank.
