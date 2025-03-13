@@ -6,9 +6,9 @@
 .t-progressbar__header {
 	margin-bottom: 0.5rem;
 	display: flex;
-    justify-content: space-between;
-    font-weight: 500;
-    color: var( --color-emphasized );
+	justify-content: space-between;
+    	font-weight: 500;
+    	color: var( --color-emphasized );
 }
 
 .t-progressbar__bar {
@@ -21,14 +21,14 @@
 .t-progressbar__progress {
 	position: absolute;
 	top: 0;
-    bottom: 0;
-    background-color: var(--color-progressive);
-    border-radius: 2px;
+    	bottom: 0;
+    	background-color: var(--color-progressive);
+    	border-radius: 2px;
 }
 
 .t-progressbar__footer {
 	margin-top: 0.5rem;
 	display: flex;
-    justify-content: space-between;
-    color: var( --color-subtle );
+    	justify-content: space-between;
+    	color: var( --color-subtle );
 }
